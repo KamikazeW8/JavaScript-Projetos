@@ -1,0 +1,29 @@
+<html>
+  <body>
+    <script>
+   
+
+      function removeRed(foodArray) {
+        const whithoutRed = foodArray.filter(function (food) {
+          return food.color !== "red";
+        });
+        console.log(whithoutRed);
+      }
+
+      removeRed([
+        {
+          name: "Apple",
+          color: "red",
+        },
+        {
+          name: "Watermelon",
+          color: "green",
+        },
+        {
+          name: "Lemon",
+          color: "white",
+        },
+      ]);
+    </script>
+  </body>
+</html>
